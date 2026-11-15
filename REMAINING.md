@@ -94,60 +94,60 @@ This is the master list of everything **not yet solved in code** in this repo. W
 ## 06 — Binary Search
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Kth missing positive number | 1539 | Easy | missing before i = a[i] − (i+1) | todo |
-| [ ] | Nth root of an integer | GFG | Easy | binary search on answer, careful overflow | new |
-| [ ] | Find the smallest divisor given a threshold | 1283 | Medium | BS on divisor, sum of ceilings | new |
-| [ ] | Find K closest elements | 658 | Medium | BS on window start `[lo, n−k]` | new |
-| [ ] | Row with maximum 1s | GFG | Medium | lower_bound per row / staircase | new |
-| [ ] | Find a peak element II | 1901 | Medium | BS on columns, max in column | new |
-| [ ] | Time based key-value store | 981 | Medium | map → list of (time, value), upper bound | new |
-| [ ] | Kth smallest element in a sorted matrix | 378 | Medium | BS on value + staircase count (or heap) | new |
-| [ ] | Median of row-wise sorted matrix | GFG | Hard | BS on value, count ≤ mid per row | new |
-| [ ] | Kth element of two sorted arrays | GFG | Hard | partition idea from LC 4 | todo |
-| [ ] | Minimize max distance to gas station | 774 | Hard | BS on doubles / heap of gaps | new |
-| [ ] | Find in mountain array | 1095 | Hard | find peak, then BS each side | todo |
+| [x] | Kth missing positive number | 1539 | Easy | missing before i = a[i] − (i+1) | todo |
+| [x] | Nth root of an integer | GFG | Easy | binary search on answer, careful overflow | new |
+| [x] | Find the smallest divisor given a threshold | 1283 | Medium | BS on divisor, sum of ceilings | new |
+| [x] | Find K closest elements | 658 | Medium | BS on window start `[lo, n−k]` | new |
+| [x] | Row with maximum 1s | GFG | Medium | lower_bound per row / staircase | new |
+| [x] | Find a peak element II | 1901 | Medium | BS on columns, max in column | new |
+| [x] | Time based key-value store | 981 | Medium | map → list of (time, value), upper bound | new |
+| [x] | Kth smallest element in a sorted matrix | 378 | Medium | BS on value + staircase count (or heap) | new |
+| [x] | Median of row-wise sorted matrix | GFG | Hard | BS on value, count ≤ mid per row | new |
+| [x] | Kth element of two sorted arrays | GFG | Hard | partition idea from LC 4 | todo |
+| [x] | Minimize max distance to gas station | 774 | Hard | BS on doubles / heap of gaps | new |
+| [x] | Find in mountain array | 1095 | Hard | find peak, then BS each side | todo |
 
 ## 07 — Sorting
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Wiggle sort II | 324 | Medium | median via quickselect + virtual indexing | todo |
-| [ ] | Maximum gap | 164 | Hard | pigeonhole buckets of size (max−min)/(n−1) | todo |
+| [x] | Wiggle sort II | 324 | Medium | median via quickselect + virtual indexing | todo |
+| [x] | Maximum gap | 164 | Hard | pigeonhole buckets of size (max−min)/(n−1) | todo |
 
 ## 08 — Recursion & Backtracking
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Restore IP addresses | 93 | Medium | 4 parts, each 0–255, no leading zeros | new |
-| [ ] | M-coloring problem | GFG | Medium | try each colour, check neighbours | todo |
-| [ ] | Partition to K equal sum subsets | 698 | Medium | sort desc, fill buckets, prune | new |
-| [ ] | Permutation sequence (kth permutation) | 60 | Hard | factorial number system, no backtracking | new |
-| [ ] | Word break II | 140 | Hard | backtracking + memo on start index | todo |
-| [ ] | Expression add operators | 282 | Hard | carry value and last operand for `*` | todo |
+| [x] | Restore IP addresses | 93 | Medium | 4 parts, each 0–255, no leading zeros | new |
+| [x] | M-coloring problem | GFG | Medium | try each colour, check neighbours | todo |
+| [x] | Partition to K equal sum subsets | 698 | Medium | sort desc, fill buckets, prune | new |
+| [x] | Permutation sequence (kth permutation) | 60 | Hard | factorial number system, no backtracking | new |
+| [x] | Word break II | 140 | Hard | backtracking + memo on start index | todo |
+| [x] | Expression add operators | 282 | Hard | carry value and last operand for `*` | todo |
 
 ## 09 — Linked List
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Swap nodes in pairs | 24 | Medium | dummy + rewire 3 pointers | new |
-| [ ] | Remove duplicates from sorted list II | 82 | Medium | dummy, skip whole duplicate runs | new |
-| [ ] | Partition list | 86 | Medium | two chains < x and ≥ x | new |
-| [ ] | Delete the middle node | 2095 | Medium | fast/slow with prev | new |
-| [ ] | Reverse linked list II | 92 | Medium | reverse sublist m..n with dummy | todo |
-| [ ] | Reorder list | 143 | Medium | middle + reverse second half + merge | new |
-| [ ] | Add one to a number in a linked list | 369 | Medium | reverse / recursion carry | new |
-| [ ] | Sort a linked list of 0s, 1s and 2s | GFG | Medium | three dummy chains | new |
-| [ ] | Design browser history | 1472 | Medium | doubly linked list / array + pointer | new |
-| [ ] | Flatten a multilevel doubly linked list | 430 | Medium | DFS / stack | todo |
-| [ ] | Flatten a linked list (bottom pointers) | GFG | Hard | merge sorted lists pairwise | new |
+| [x] | Swap nodes in pairs | 24 | Medium | dummy + rewire 3 pointers | new |
+| [x] | Remove duplicates from sorted list II | 82 | Medium | dummy, skip whole duplicate runs | new |
+| [x] | Partition list | 86 | Medium | two chains < x and ≥ x | new |
+| [x] | Delete the middle node | 2095 | Medium | fast/slow with prev | new |
+| [x] | Reverse linked list II | 92 | Medium | reverse sublist m..n with dummy | todo |
+| [x] | Reorder list | 143 | Medium | middle + reverse second half + merge | new |
+| [x] | Add one to a number in a linked list | 369 | Medium | reverse / recursion carry | new |
+| [x] | Sort a linked list of 0s, 1s and 2s | GFG | Medium | three dummy chains | new |
+| [x] | Design browser history | 1472 | Medium | doubly linked list / array + pointer | new |
+| [x] | Flatten a multilevel doubly linked list | 430 | Medium | DFS / stack | todo |
+| [x] | Flatten a linked list (bottom pointers) | GFG | Hard | merge sorted lists pairwise | new |
 
 ## 10 — Stack & Queue
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Simplify path | 71 | Medium | stack of directory names | todo |
-| [ ] | Remove all adjacent duplicates in string II | 1209 | Medium | stack of (char, count) | new |
-| [ ] | Car fleet | 853 | Medium | sort by position, stack of arrival times | new |
-| [ ] | Design hit counter | 362 | Medium | queue / circular buckets | new |
-| [ ] | Sum of subarray ranges | 2104 | Medium | Σ max contribution − Σ min contribution | todo |
-| [ ] | Longest valid parentheses | 32 | Hard | stack of indices / two-pass counters | new |
-| [ ] | Maximum frequency stack | 895 | Hard | freq map + stack per frequency | new |
+| [x] | Simplify path | 71 | Medium | stack of directory names | todo |
+| [x] | Remove all adjacent duplicates in string II | 1209 | Medium | stack of (char, count) | new |
+| [x] | Car fleet | 853 | Medium | sort by position, stack of arrival times | new |
+| [x] | Design hit counter | 362 | Medium | queue / circular buckets | new |
+| [x] | Sum of subarray ranges | 2104 | Medium | Σ max contribution − Σ min contribution | todo |
+| [x] | Longest valid parentheses | 32 | Hard | stack of indices / two-pass counters | new |
+| [x] | Maximum frequency stack | 895 | Hard | freq map + stack per frequency | new |
 
 ## 11 — Binary Trees
 | ✓ | Problem | LC | Level | Approach hint | Source |

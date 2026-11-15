@@ -44,6 +44,15 @@ If slow and fast meet, reset one pointer to head; moving both 1 step, they meet 
 | 17 | Copy list with random pointer (LC 138) | Medium | HashMap / interleave | [ReverseKGroup](ReverseKGroup.java) |
 | 18 | LRU cache (LC 146) | Medium | HashMap + DLL | [LRUCache](LRUCache.java) |
 | 19 | Merge K sorted lists (LC 23) | Hard | min-heap | see 13 |
-| 20 | Flatten a multilevel doubly linked list (LC 430) | Medium | DFS / stack | _(todo)_ |
-| 21 | Reverse linked list II (LC 92) | Medium | reverse sublist with dummy | _(todo)_ |
+| 20 | Flatten a multilevel doubly linked list (LC 430) | Medium | DFS / stack | [LinkedListProblemsIII](LinkedListProblemsIII.java) |
+| 21 | Reverse linked list II (LC 92) | Medium | reverse sublist with dummy | [LinkedListProblemsII](LinkedListProblemsII.java) |
 | 22 | LFU cache (LC 460) | Hard | freq → DLL map | see 19 |
+| 23 | Swap nodes in pairs (LC 24) | Medium | dummy + rewire 3 pointers | [LinkedListProblemsII](LinkedListProblemsII.java) |
+| 24 | Remove duplicates from sorted list II (LC 82) | Medium | dummy, skip whole duplicate runs | [LinkedListProblemsII](LinkedListProblemsII.java) |
+| 25 | Partition list (LC 86) | Medium | two chains < x and ≥ x | [LinkedListProblemsII](LinkedListProblemsII.java) |
+| 26 | Delete the middle node (LC 2095) | Medium | fast/slow with prev | [LinkedListProblemsII](LinkedListProblemsII.java) |
+| 27 | Reorder list (LC 143) | Medium | middle + reverse second half + merge | [LinkedListProblemsII](LinkedListProblemsII.java) |
+| 28 | Add one to a number in a linked list (LC 369) | Medium | reverse / recursion carry | [LinkedListProblemsIII](LinkedListProblemsIII.java) |
+| 29 | Sort a linked list of 0s, 1s and 2s (GFG) | Medium | three dummy chains | [LinkedListProblemsIII](LinkedListProblemsIII.java) |
+| 30 | Design browser history (LC 1472) | Medium | doubly linked list / array + pointer | [LinkedListProblemsIII](LinkedListProblemsIII.java) |
+| 31 | Flatten a linked list (bottom pointers) (GFG) | Hard | merge sorted lists pairwise | [LinkedListProblemsIII](LinkedListProblemsIII.java) |

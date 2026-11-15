@@ -56,6 +56,9 @@ void backtrack(State state, List<Choice> path) {
 | 17 | N-Queens (LC 51/52) | Hard | col + 2 diagonal sets | [NQueensSudoku](NQueensSudoku.java) |
 | 18 | Sudoku solver (LC 37) | Hard | try 1–9 with row/col/box masks | [NQueensSudoku](NQueensSudoku.java) |
 | 19 | Rat in a maze | Medium | DFS with path string | [NQueensSudoku](NQueensSudoku.java) |
-| 20 | M-coloring problem | Medium | try each colour, check neighbours | _(todo)_ |
-| 21 | Word break II (LC 140) | Hard | backtrack + memo | _(todo)_ |
-| 22 | Expression add operators (LC 282) | Hard | track prev operand for * | _(todo)_ |
+| 20 | M-coloring problem | Medium | try each colour, check neighbours | [BacktrackingProblemsII](BacktrackingProblemsII.java) |
+| 21 | Word break II (LC 140) | Hard | backtrack + memo | [BacktrackingProblemsII](BacktrackingProblemsII.java) |
+| 22 | Expression add operators (LC 282) | Hard | track prev operand for * | [BacktrackingProblemsII](BacktrackingProblemsII.java) |
+| 23 | Restore IP addresses (LC 93) | Medium | 4 parts, each 0–255, no leading zeros | [BacktrackingProblemsII](BacktrackingProblemsII.java) |
+| 24 | Partition to K equal sum subsets (LC 698) | Medium | sort desc, fill buckets, prune | [BacktrackingProblemsII](BacktrackingProblemsII.java) |
+| 25 | Permutation sequence (kth permutation) (LC 60) | Hard | factorial number system, no backtracking | [BacktrackingProblemsII](BacktrackingProblemsII.java) |

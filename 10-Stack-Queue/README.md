@@ -52,5 +52,10 @@ Circular array → loop `i` from 0 to `2n - 1`, use `i % n`.
 | 20 | Sliding window maximum (LC 239) | Hard | monotonic deque | [SlidingWindowMaximum](SlidingWindowMaximum.java) |
 | 21 | Celebrity problem | Medium | stack / two pointers elimination | [SlidingWindowMaximum](SlidingWindowMaximum.java) |
 | 22 | Trapping rain water (LC 42) | Hard | stack | see 05 |
-| 23 | Sum of subarray ranges (LC 2104) | Medium | max contribution − min contribution | _(todo)_ |
-| 24 | Simplify path (LC 71) | Medium | stack of dirs | _(todo)_ |
+| 23 | Sum of subarray ranges (LC 2104) | Medium | max contribution − min contribution | [StackProblemsII](StackProblemsII.java) |
+| 24 | Simplify path (LC 71) | Medium | stack of dirs | [StackProblemsII](StackProblemsII.java) |
+| 25 | Remove all adjacent duplicates in string II (LC 1209) | Medium | stack of (char, count) | [StackProblemsII](StackProblemsII.java) |
+| 26 | Car fleet (LC 853) | Medium | sort by position, stack of arrival times | [StackProblemsII](StackProblemsII.java) |
+| 27 | Design hit counter (LC 362) | Medium | queue / circular buckets | [StackProblemsII](StackProblemsII.java) |
+| 28 | Longest valid parentheses (LC 32) | Hard | stack of indices / two-pass counters | [StackProblemsII](StackProblemsII.java) |
+| 29 | Maximum frequency stack (LC 895) | Hard | freq map + stack per frequency | [StackProblemsII](StackProblemsII.java) |

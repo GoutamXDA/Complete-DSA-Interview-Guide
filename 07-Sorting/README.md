@@ -36,6 +36,6 @@ list.sort(Comparator.comparing(Person::getAge).thenComparing(Person::getName));
 | 5 | Kth largest element (LC 215) | Medium | quickselect O(n) avg / heap | [SortingProblems](SortingProblems.java) |
 | 6 | Largest number (LC 179) | Medium | custom comparator | [SortingProblems](SortingProblems.java) |
 | 7 | Sort list (LC 148) | Medium | merge sort on linked list | see 09 |
-| 8 | Wiggle sort II (LC 324) | Medium | median + virtual indexing | _(todo)_ |
-| 9 | Maximum gap (LC 164) | Hard | bucket / pigeonhole | _(todo)_ |
+| 8 | Wiggle sort II (LC 324) | Medium | median + virtual indexing | [SortingProblemsII](SortingProblemsII.java) |
+| 9 | Maximum gap (LC 164) | Hard | bucket / pigeonhole | [SortingProblemsII](SortingProblemsII.java) |
 | 10 | Sort colors (LC 75) | Medium | Dutch flag | see 02 |

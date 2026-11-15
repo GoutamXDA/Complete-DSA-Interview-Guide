@@ -52,6 +52,15 @@ At any `mid`, **one half is sorted**. Check if target lies in the sorted half; o
 | 17 | Aggressive cows / Magnetic force (LC 1552) | Hard | BS on min distance | [BinarySearchOnAnswer](BinarySearchOnAnswer.java) |
 | 18 | Minimum days to make bouquets (LC 1482) | Medium | BS on days | [BinarySearchOnAnswer](BinarySearchOnAnswer.java) |
 | 19 | Median of two sorted arrays (LC 4) | Hard | partition the smaller array | [MedianOfTwoSortedArrays](MedianOfTwoSortedArrays.java) |
-| 20 | Kth element of two sorted arrays | Hard | same partition idea | _(todo)_ |
-| 21 | Kth missing positive (LC 1539) | Easy | missing = a[i] − (i+1) | _(todo)_ |
-| 22 | Find in mountain array (LC 1095) | Hard | peak + two searches | _(todo)_ |
+| 20 | Kth element of two sorted arrays | Hard | same partition idea | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 21 | Kth missing positive (LC 1539) | Easy | missing = a[i] − (i+1) | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 22 | Find in mountain array (LC 1095) | Hard | peak + two searches | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 23 | Nth root of an integer (GFG) | Easy | binary search on answer, careful overflow | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 24 | Find the smallest divisor given a threshold (LC 1283) | Medium | BS on divisor, sum of ceilings | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 25 | Find K closest elements (LC 658) | Medium | BS on window start `[lo, n−k]` | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 26 | Row with maximum 1s (GFG) | Medium | lower_bound per row / staircase | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 27 | Find a peak element II (LC 1901) | Medium | BS on columns, max in column | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 28 | Time based key-value store (LC 981) | Medium | map → list of (time, value), upper bound | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 29 | Kth smallest element in a sorted matrix (LC 378) | Medium | BS on value + staircase count (or heap) | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 30 | Median of row-wise sorted matrix (GFG) | Hard | BS on value, count ≤ mid per row | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
+| 31 | Minimize max distance to gas station (LC 774) | Hard | BS on doubles / heap of gaps | [BinarySearchProblemsII](BinarySearchProblemsII.java) |
