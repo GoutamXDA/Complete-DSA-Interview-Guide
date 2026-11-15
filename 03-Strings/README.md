@@ -42,4 +42,4 @@
 | 18 | Repeated string match / strStr (LC 28) | Easy/Med | KMP | see 19 |
 | 19 | Edit distance (LC 72) | Hard | DP | see 15 |
 | 20 | Sort characters by frequency (LC 451) | Medium | bucket sort | _(todo)_ |
-| 21 | Shortest palindrome (LC 214) | Hard | KMP on s + '#' + rev(s) | _(todo)_ |
+| 21 | Shortest palindrome (LC 214) | Hard | KMP on s + '#' + rev(s) | [../19-Advanced-Data-Structures/StringMatching](../19-Advanced-Data-Structures/StringMatching.java) |

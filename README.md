@@ -78,8 +78,9 @@ A single, structured repository to prepare **Data Structures & Algorithms** for 
 
 ## Progress tracker
 
-Copy [PROGRESS.md](PROGRESS.md) and tick topics as you finish them.
+- [PROGRESS.md](PROGRESS.md) — tick topics as you finish them.
+- **[REMAINING.md](REMAINING.md) — master list of all 159 problems not yet solved in code, by topic, with approach hints. Nothing gets skipped.**
 
 ## Contributing / extending
 
-Each topic's problem table lists more problems than are solved in code. Pick one marked _(todo)_, add a `ProblemName.java` following the same template, and run `./run-all.sh`.
+Pick any unticked problem from [REMAINING.md](REMAINING.md), add a `ProblemName.java` following the same template, and run `./run-all.sh`.
