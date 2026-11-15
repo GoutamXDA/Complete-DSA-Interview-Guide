@@ -32,7 +32,12 @@
 | 9 | Task scheduler (LC 621) | Medium | formula / heap | [HeapProblems](HeapProblems.java) |
 | 10 | Meeting rooms II (LC 253) | Medium | heap of end times | [HeapProblems](HeapProblems.java) |
 | 11 | Reorganize string (LC 767) | Medium | max-heap, alternate top two | [HeapProblems](HeapProblems.java) |
-| 12 | Sliding window median (LC 480) | Hard | two heaps + lazy delete / TreeMap | _(todo)_ |
-| 13 | IPO (LC 502) | Hard | sort by capital + max-heap profit | _(todo)_ |
-| 14 | Smallest range covering K lists (LC 632) | Hard | heap + track max | _(todo)_ |
-| 15 | Hand of straights (LC 846) | Medium | TreeMap counts | _(todo)_ |
+| 12 | Sliding window median (LC 480) | Hard | two heaps + lazy delete / TreeMap | [HeapProblemsII](HeapProblemsII.java) |
+| 13 | IPO (LC 502) | Hard | sort by capital + max-heap profit | [HeapProblemsII](HeapProblemsII.java) |
+| 14 | Smallest range covering K lists (LC 632) | Hard | heap + track max | [HeapProblemsII](HeapProblemsII.java) |
+| 15 | Hand of straights (LC 846) | Medium | TreeMap counts | [HeapProblemsII](HeapProblemsII.java) |
+| 16 | Minimum cost to connect ropes (LC 1167) | Medium | min-heap, always join two smallest | [HeapProblemsII](HeapProblemsII.java) |
+| 17 | Find K pairs with smallest sums (LC 373) | Medium | heap seeded with (i, 0) | [HeapProblemsII](HeapProblemsII.java) |
+| 18 | Maximum sum combinations (GFG) | Medium | sort desc + heap + visited set | [HeapProblemsII](HeapProblemsII.java) |
+| 19 | Design Twitter (LC 355) | Medium | per-user tweet lists + k-way merge heap | [HeapProblemsII](HeapProblemsII.java) |
+| 20 | Minimum cost to hire K workers (LC 857) | Hard | sort by wage/quality ratio + max-heap of quality | [HeapProblemsII](HeapProblemsII.java) |

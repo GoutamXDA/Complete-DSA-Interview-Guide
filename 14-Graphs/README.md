@@ -61,6 +61,21 @@
 | 28 | Critical connections / bridges (LC 1192) | Hard | Tarjan low-link | [AdvancedGraphs](AdvancedGraphs.java) |
 | 29 | Articulation points | Hard | Tarjan | [AdvancedGraphs](AdvancedGraphs.java) |
 | 30 | Accounts merge (LC 721) | Medium | DSU on emails | see 19 |
-| 31 | Number of islands II (LC 305) | Hard | DSU online | _(todo)_ |
-| 32 | Swim in rising water (LC 778) | Hard | Dijkstra / binary search + BFS | _(todo)_ |
-| 33 | Reconstruct itinerary (LC 332) | Hard | Hierholzer Euler path | _(todo)_ |
+| 31 | Number of islands II (LC 305) | Hard | DSU online | [GraphProblemsIII](GraphProblemsIII.java) |
+| 32 | Swim in rising water (LC 778) | Hard | Dijkstra / binary search + BFS | [GraphProblemsIII](GraphProblemsIII.java) |
+| 33 | Reconstruct itinerary (LC 332) | Hard | Hierholzer Euler path | [GraphProblemsIII](GraphProblemsIII.java) |
+| 34 | Max area of island (LC 695) | Medium | DFS returning size | [GraphProblemsII](GraphProblemsII.java) |
+| 35 | Number of enclaves (LC 1020) | Medium | flood from border, count rest | [GraphProblemsII](GraphProblemsII.java) |
+| 36 | Pacific Atlantic water flow (LC 417) | Medium | reverse flow from both oceans | [GraphProblemsII](GraphProblemsII.java) |
+| 37 | Walls and gates (LC 286) | Medium | multi-source BFS from gates | [GraphProblemsII](GraphProblemsII.java) |
+| 38 | Number of distinct islands (LC 694) | Medium | shape signature (relative coords) in a set | [GraphProblemsII](GraphProblemsII.java) |
+| 39 | Number of connected components (LC 323) | Medium | DFS / DSU | [GraphProblemsII](GraphProblemsII.java) |
+| 40 | Graph valid tree (LC 261) | Medium | n−1 edges + connected (DSU) | [GraphProblemsII](GraphProblemsII.java) |
+| 41 | Shortest path in binary matrix (LC 1091) | Medium | BFS with 8 directions | [GraphProblemsII](GraphProblemsII.java) |
+| 42 | Evaluate division (LC 399) | Medium | weighted graph DFS / weighted DSU | [GraphProblemsII](GraphProblemsII.java) |
+| 43 | Minimum multiplications to reach end (GFG) | Medium | BFS over states mod 100000 | [GraphProblemsII](GraphProblemsII.java) |
+| 44 | Find the city with the smallest number of neighbours (LC 1334) | Medium | Floyd–Warshall | [GraphProblemsII](GraphProblemsII.java) |
+| 45 | Number of ways to arrive at destination (LC 1976) | Medium | Dijkstra + count ways mod | [GraphProblemsII](GraphProblemsII.java) |
+| 46 | Making a large island (LC 827) | Hard | label islands with sizes, try each 0 | [GraphProblemsIII](GraphProblemsIII.java) |
+| 47 | Bus routes (LC 815) | Hard | BFS over routes, stop → routes map | [GraphProblemsIII](GraphProblemsIII.java) |
+| 48 | Word ladder II (LC 126) | Hard | BFS levels + backtrack paths | [GraphProblemsIII](GraphProblemsIII.java) |

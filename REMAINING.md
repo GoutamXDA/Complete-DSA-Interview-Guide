@@ -152,62 +152,62 @@ This is the master list of everything **not yet solved in code** in this repo. W
 ## 11 — Binary Trees
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Binary tree paths | 257 | Easy | DFS with path string | new |
-| [ ] | Subtree of another tree | 572 | Easy | isSame at every node / serialize + KMP | new |
-| [ ] | Sum root to leaf numbers | 129 | Medium | pass `cur*10 + val` down | new |
-| [ ] | Count good nodes | 1448 | Medium | pass max-so-far down | new |
-| [ ] | Path sum III | 437 | Medium | prefix sum + map along the path | new |
-| [ ] | Populating next right pointers | 116 | Medium | use already-built next pointers, O(1) space | new |
-| [ ] | Flatten binary tree to linked list | 114 | Medium | reverse postorder / Morris-like | todo |
-| [ ] | Children sum property | GFG | Medium | push values down, fix up on return | todo |
-| [ ] | Amount of time to burn the tree | 2385 | Medium | parent map + BFS from start | todo |
-| [ ] | Construct from preorder and postorder | 889 | Medium | next preorder element = left child root | new |
-| [ ] | Binary tree cameras | 968 | Hard | greedy postorder with 3 states | new |
+| [x] | Binary tree paths | 257 | Easy | DFS with path string | new |
+| [x] | Subtree of another tree | 572 | Easy | isSame at every node / serialize + KMP | new |
+| [x] | Sum root to leaf numbers | 129 | Medium | pass `cur*10 + val` down | new |
+| [x] | Count good nodes | 1448 | Medium | pass max-so-far down | new |
+| [x] | Path sum III | 437 | Medium | prefix sum + map along the path | new |
+| [x] | Populating next right pointers | 116 | Medium | use already-built next pointers, O(1) space | new |
+| [x] | Flatten binary tree to linked list | 114 | Medium | reverse postorder / Morris-like | todo |
+| [x] | Children sum property | GFG | Medium | push values down, fix up on return | todo |
+| [x] | Amount of time to burn the tree | 2385 | Medium | parent map + BFS from start | todo |
+| [x] | Construct from preorder and postorder | 889 | Medium | next preorder element = left child root | new |
+| [x] | Binary tree cameras | 968 | Hard | greedy postorder with 3 states | new |
 
 ## 12 — Binary Search Trees
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Inorder predecessor (and successor together) | 285 | Medium | walk from root tracking candidate | new |
-| [ ] | Convert BST to greater tree | 538 | Medium | reverse inorder with running sum | new |
-| [ ] | Trim a BST | 669 | Medium | recurse on bounds | todo |
-| [ ] | Balance a BST | 1382 | Medium | inorder → sorted array → build | todo |
-| [ ] | Unique binary search trees | 96 | Medium | Catalan DP `dp[n] = Σ dp[i-1]*dp[n-i]` | new |
-| [ ] | Unique binary search trees II | 95 | Medium | recursive generation per root | new |
+| [x] | Inorder predecessor (and successor together) | 285 | Medium | walk from root tracking candidate | new |
+| [x] | Convert BST to greater tree | 538 | Medium | reverse inorder with running sum | new |
+| [x] | Trim a BST | 669 | Medium | recurse on bounds | todo |
+| [x] | Balance a BST | 1382 | Medium | inorder → sorted array → build | todo |
+| [x] | Unique binary search trees | 96 | Medium | Catalan DP `dp[n] = Σ dp[i-1]*dp[n-i]` | new |
+| [x] | Unique binary search trees II | 95 | Medium | recursive generation per root | new |
 
 ## 13 — Heaps / Priority Queue
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Minimum cost to connect ropes | 1167 | Medium | min-heap, always join two smallest | new |
-| [ ] | Hand of straights | 846 | Medium | TreeMap counts from smallest | todo |
-| [ ] | Find K pairs with smallest sums | 373 | Medium | heap seeded with (i, 0) | new |
-| [ ] | Maximum sum combinations | GFG | Medium | sort desc + heap + visited set | new |
-| [ ] | Design Twitter | 355 | Medium | per-user tweet lists + k-way merge heap | new |
-| [ ] | IPO | 502 | Hard | sort by capital + max-heap of profits | todo |
-| [ ] | Sliding window median | 480 | Hard | two heaps + lazy delete / two TreeMaps | todo |
-| [ ] | Smallest range covering elements from K lists | 632 | Hard | heap of heads + track current max | todo |
-| [ ] | Minimum cost to hire K workers | 857 | Hard | sort by wage/quality ratio + max-heap of quality | new |
+| [x] | Minimum cost to connect ropes | 1167 | Medium | min-heap, always join two smallest | new |
+| [x] | Hand of straights | 846 | Medium | TreeMap counts from smallest | todo |
+| [x] | Find K pairs with smallest sums | 373 | Medium | heap seeded with (i, 0) | new |
+| [x] | Maximum sum combinations | GFG | Medium | sort desc + heap + visited set | new |
+| [x] | Design Twitter | 355 | Medium | per-user tweet lists + k-way merge heap | new |
+| [x] | IPO | 502 | Hard | sort by capital + max-heap of profits | todo |
+| [x] | Sliding window median | 480 | Hard | two heaps + lazy delete / two TreeMaps | todo |
+| [x] | Smallest range covering elements from K lists | 632 | Hard | heap of heads + track current max | todo |
+| [x] | Minimum cost to hire K workers | 857 | Hard | sort by wage/quality ratio + max-heap of quality | new |
 
 ## 14 — Graphs
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Max area of island | 695 | Medium | DFS returning size | new |
-| [ ] | Number of enclaves | 1020 | Medium | flood from border, count rest | new |
-| [ ] | Pacific Atlantic water flow | 417 | Medium | reverse flow from both oceans | new |
-| [ ] | Walls and gates | 286 | Medium | multi-source BFS from gates | new |
-| [ ] | Number of distinct islands | 694 | Medium | shape signature (relative coords) in a set | new |
-| [ ] | Number of connected components | 323 | Medium | DFS / DSU | new |
-| [ ] | Graph valid tree | 261 | Medium | n−1 edges + connected (DSU) | new |
-| [ ] | Shortest path in binary matrix | 1091 | Medium | BFS with 8 directions | new |
-| [ ] | Evaluate division | 399 | Medium | weighted graph DFS / weighted DSU | new |
-| [ ] | Minimum multiplications to reach end | GFG | Medium | BFS over states mod 100000 | new |
-| [ ] | Find the city with the smallest number of neighbours | 1334 | Medium | Floyd–Warshall | new |
-| [ ] | Number of ways to arrive at destination | 1976 | Medium | Dijkstra + count ways mod | new |
-| [ ] | Making a large island | 827 | Hard | label islands with sizes, try each 0 | new |
-| [ ] | Number of islands II | 305 | Hard | online DSU | todo |
-| [ ] | Swim in rising water | 778 | Hard | Dijkstra on max / BS + BFS | todo |
-| [ ] | Bus routes | 815 | Hard | BFS over routes, stop → routes map | new |
-| [ ] | Word ladder II | 126 | Hard | BFS levels + backtrack paths | new |
-| [ ] | Reconstruct itinerary | 332 | Hard | Hierholzer Euler path with min-heap | todo |
+| [x] | Max area of island | 695 | Medium | DFS returning size | new |
+| [x] | Number of enclaves | 1020 | Medium | flood from border, count rest | new |
+| [x] | Pacific Atlantic water flow | 417 | Medium | reverse flow from both oceans | new |
+| [x] | Walls and gates | 286 | Medium | multi-source BFS from gates | new |
+| [x] | Number of distinct islands | 694 | Medium | shape signature (relative coords) in a set | new |
+| [x] | Number of connected components | 323 | Medium | DFS / DSU | new |
+| [x] | Graph valid tree | 261 | Medium | n−1 edges + connected (DSU) | new |
+| [x] | Shortest path in binary matrix | 1091 | Medium | BFS with 8 directions | new |
+| [x] | Evaluate division | 399 | Medium | weighted graph DFS / weighted DSU | new |
+| [x] | Minimum multiplications to reach end | GFG | Medium | BFS over states mod 100000 | new |
+| [x] | Find the city with the smallest number of neighbours | 1334 | Medium | Floyd–Warshall | new |
+| [x] | Number of ways to arrive at destination | 1976 | Medium | Dijkstra + count ways mod | new |
+| [x] | Making a large island | 827 | Hard | label islands with sizes, try each 0 | new |
+| [x] | Number of islands II | 305 | Hard | online DSU | todo |
+| [x] | Swim in rising water | 778 | Hard | Dijkstra on max / BS + BFS | todo |
+| [x] | Bus routes | 815 | Hard | BFS over routes, stop → routes map | new |
+| [x] | Word ladder II | 126 | Hard | BFS levels + backtrack paths | new |
+| [x] | Reconstruct itinerary | 332 | Hard | Hierholzer Euler path with min-heap | todo |
 
 ## 15 — Dynamic Programming
 | ✓ | Problem | LC | Level | Approach hint | Source |

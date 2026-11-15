@@ -33,5 +33,9 @@ Walk from root: going right when `node.val <= key` records floor candidates; goi
 | 13 | Two sum IV in BST (LC 653) | Easy | two BST iterators (asc + desc) | [BSTProblems](BSTProblems.java) |
 | 14 | Recover BST – two swapped nodes (LC 99) | Medium | inorder, find violations | [BSTProblems](BSTProblems.java) |
 | 15 | Largest BST in binary tree | Hard | postorder returning (min, max, size) | [BSTProblems](BSTProblems.java) |
-| 16 | Trim a BST (LC 669) | Medium | recursion on bounds | _(todo)_ |
-| 17 | Balance a BST (LC 1382) | Medium | inorder → sorted array → build | _(todo)_ |
+| 16 | Trim a BST (LC 669) | Medium | recursion on bounds | [BSTProblemsII](BSTProblemsII.java) |
+| 17 | Balance a BST (LC 1382) | Medium | inorder → sorted array → build | [BSTProblemsII](BSTProblemsII.java) |
+| 18 | Inorder predecessor (and successor together) (LC 285) | Medium | walk from root tracking candidate | [BSTProblemsII](BSTProblemsII.java) |
+| 19 | Convert BST to greater tree (LC 538) | Medium | reverse inorder with running sum | [BSTProblemsII](BSTProblemsII.java) |
+| 20 | Unique binary search trees (LC 96) | Medium | Catalan DP `dp[n] = Σ dp[i-1]*dp[n-i]` | [BSTProblemsII](BSTProblemsII.java) |
+| 21 | Unique binary search trees II (LC 95) | Medium | recursive generation per root | [BSTProblemsII](BSTProblemsII.java) |

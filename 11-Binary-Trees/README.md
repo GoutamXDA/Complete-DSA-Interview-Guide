@@ -55,6 +55,14 @@ int dfs(TreeNode n) {          // bottom-up template
 | 19 | Serialize & deserialize (LC 297) | Hard | preorder with null markers | [TreeLCAConstruct](TreeLCAConstruct.java) |
 | 20 | All nodes distance K (LC 863) | Medium | parent map + BFS | [TreeLCAConstruct](TreeLCAConstruct.java) |
 | 21 | Count complete tree nodes (LC 222) | Medium | compare left/right heights O(log² n) | [TreeLCAConstruct](TreeLCAConstruct.java) |
-| 22 | Flatten to linked list (LC 114) | Medium | reverse postorder / Morris-like | _(todo)_ |
-| 23 | Children sum property | Medium | push values down, fix up | _(todo)_ |
-| 24 | Time to burn tree (LC 2385) | Medium | parent map + BFS | _(todo)_ |
+| 22 | Flatten to linked list (LC 114) | Medium | reverse postorder / Morris-like | [TreeProblemsII](TreeProblemsII.java) |
+| 23 | Children sum property | Medium | push values down, fix up | [TreeProblemsII](TreeProblemsII.java) |
+| 24 | Time to burn tree (LC 2385) | Medium | parent map + BFS | [TreeProblemsII](TreeProblemsII.java) |
+| 25 | Binary tree paths (LC 257) | Easy | DFS with path string | [TreeProblemsII](TreeProblemsII.java) |
+| 26 | Subtree of another tree (LC 572) | Easy | isSame at every node / serialize + KMP | [TreeProblemsII](TreeProblemsII.java) |
+| 27 | Sum root to leaf numbers (LC 129) | Medium | pass `cur*10 + val` down | [TreeProblemsII](TreeProblemsII.java) |
+| 28 | Count good nodes (LC 1448) | Medium | pass max-so-far down | [TreeProblemsII](TreeProblemsII.java) |
+| 29 | Path sum III (LC 437) | Medium | prefix sum + map along the path | [TreeProblemsII](TreeProblemsII.java) |
+| 30 | Populating next right pointers (LC 116) | Medium | use already-built next pointers, O(1) space | [TreeProblemsII](TreeProblemsII.java) |
+| 31 | Construct from preorder and postorder (LC 889) | Medium | next preorder element = left child root | [TreeProblemsII](TreeProblemsII.java) |
+| 32 | Binary tree cameras (LC 968) | Hard | greedy postorder with 3 states | [TreeProblemsII](TreeProblemsII.java) |
