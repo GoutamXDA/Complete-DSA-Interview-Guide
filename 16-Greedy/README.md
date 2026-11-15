@@ -38,5 +38,10 @@ Prove it with an **exchange argument**: take any optimal solution, swap in the g
 | 16 | Min arrows to burst balloons (LC 452) | Medium | sort by end | [IntervalProblems](IntervalProblems.java) |
 | 17 | Minimum platforms | Medium | sort arrivals & departures | [IntervalProblems](IntervalProblems.java) |
 | 18 | Task scheduler (LC 621) | Medium | formula | see 13 |
-| 19 | Queue reconstruction by height (LC 406) | Medium | sort h desc, k asc, insert at k | _(todo)_ |
-| 20 | Minimum number of taps (LC 1326) | Hard | convert to jump game II | _(todo)_ |
+| 19 | Queue reconstruction by height (LC 406) | Medium | sort h desc, k asc, insert at k | [GreedyProblemsII](GreedyProblemsII.java) |
+| 20 | Minimum number of taps (LC 1326) | Hard | convert to jump game II | [GreedyProblemsII](GreedyProblemsII.java) |
+| 21 | Two city scheduling (LC 1029) | Medium | sort by costA − costB | [GreedyProblemsII](GreedyProblemsII.java) |
+| 22 | Maximum length of pair chain (LC 646) | Medium | sort by end (activity selection) | [GreedyProblemsII](GreedyProblemsII.java) |
+| 23 | Merge triplets to form target triplet (LC 1899) | Medium | keep triplets ≤ target, OR the matches | [GreedyProblemsII](GreedyProblemsII.java) |
+| 24 | Broken calculator (LC 991) | Medium | work backwards from target | [GreedyProblemsII](GreedyProblemsII.java) |
+| 25 | Shortest job first (average waiting time) (GFG) | Easy | sort burst times, prefix sum | [GreedyProblemsII](GreedyProblemsII.java) |

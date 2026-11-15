@@ -26,6 +26,6 @@
 | 6 | Maximum XOR with an element from array (LC 1707) | Hard | offline: sort queries, insert ≤ limit | [TrieProblems](TrieProblems.java) |
 | 7 | Word search II (LC 212) | Hard | trie + grid DFS, prune found words | [TrieProblems](TrieProblems.java) |
 | 8 | Design add & search words (LC 211) | Medium | DFS on '.' | [TrieProblems](TrieProblems.java) |
-| 9 | Replace words (LC 648) | Medium | shortest root prefix | _(todo)_ |
-| 10 | Search suggestions system (LC 1268) | Medium | trie with top-3 per node / sort + binary search | _(todo)_ |
-| 11 | Palindrome pairs (LC 336) | Hard | trie of reversed words | _(todo)_ |
+| 9 | Replace words (LC 648) | Medium | shortest root prefix | [TrieProblemsII](TrieProblemsII.java) |
+| 10 | Search suggestions system (LC 1268) | Medium | trie with top-3 per node / sort + binary search | [TrieProblemsII](TrieProblemsII.java) |
+| 11 | Palindrome pairs (LC 336) | Hard | trie of reversed words | [TrieProblemsII](TrieProblemsII.java) |

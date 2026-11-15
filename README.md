@@ -79,8 +79,8 @@ A single, structured repository to prepare **Data Structures & Algorithms** for 
 ## Progress tracker
 
 - [PROGRESS.md](PROGRESS.md) — tick topics as you finish them.
-- **[REMAINING.md](REMAINING.md) — master list of all 159 problems not yet solved in code, by topic, with approach hints. Nothing gets skipped.**
+- **[REMAINING.md](REMAINING.md) — checklist of the 159 extra problems (Blind 75, NeetCode 150, Striver sheet gaps), all solved and linked.**
 
 ## Contributing / extending
 
-Pick any unticked problem from [REMAINING.md](REMAINING.md), add a `ProblemName.java` following the same template, and run `./run-all.sh`.
+Add a new unticked row to [REMAINING.md](REMAINING.md), add a `ProblemName.java` following the same template, and run `./run-all.sh`.

@@ -1,6 +1,6 @@
 # Remaining Problems Tracker
 
-This is the master list of everything **not yet solved in code** in this repo. Work through it topic by topic. When a problem gets a Java solution, tick it here **and** link it from the topic README's table.
+✅ **All 159 problems on this list are now solved in code**, each linked from its topic README. This file stays as the record of what was added beyond the original guide. To extend the repo, add new rows here as unticked `[ ]` and solve them the same way.
 
 - **Source** says where a problem came from: `todo` = already listed in the topic README as _(todo)_; `new` = found by checking Blind 75, NeetCode 150 and Striver's A2Z/SDE sheet against this repo.
 - `GFG` = GeeksforGeeks / Striver-sheet problem with no LeetCode number.
@@ -8,7 +8,7 @@ This is the master list of everything **not yet solved in code** in this repo. W
 
 ## Summary
 
-| # | Topic | Remaining |
+| # | Topic | Solved |
 |---|---|---|
 | 01 | Basic Maths | 4 |
 | 02 | Arrays | 13 |
@@ -212,63 +212,63 @@ This is the master list of everything **not yet solved in code** in this repo. W
 ## 15 — Dynamic Programming
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Ninja's training | GFG | Medium | dp[day][last activity] | todo |
-| [ ] | Delete and earn | 740 | Medium | bucket values → house robber | new |
-| [ ] | Perfect squares | 279 | Medium | unbounded knapsack over squares / BFS | new |
-| [ ] | Combination sum IV | 377 | Medium | amount outer loop → counts permutations | new |
-| [ ] | Count partitions with given difference | GFG | Medium | count subsets with sum (total − d)/2 | new |
-| [ ] | Ones and zeroes | 474 | Medium | 2D 0/1 knapsack | new |
-| [ ] | Partition array for maximum sum | 1043 | Medium | front partition, try last k lengths | new |
-| [ ] | Delete operation for two strings | 583 | Medium | m + n − 2·LCS | new |
-| [ ] | Longest string chain | 1048 | Medium | sort by length, map word → best | new |
-| [ ] | Longest arithmetic subsequence | 1027 | Medium | dp[i][diff] map | new |
-| [ ] | Longest bitonic subsequence | GFG | Medium | LIS from left + LIS from right − 1 | new |
-| [ ] | Interleaving string | 97 | Medium | dp[i][j] over both prefixes | new |
-| [ ] | Shortest common supersequence | 1092 | Hard | build from LCS table | todo |
-| [ ] | Longest increasing path in a matrix | 329 | Hard | DFS + memo (DAG) | new |
-| [ ] | Dungeon game | 174 | Hard | bottom-right to top-left min health | new |
-| [ ] | Frog jump | 403 | Hard | map stone → set of reachable jump sizes | new |
-| [ ] | Boolean parenthesization | GFG | Hard | interval DP with true/false counts | todo |
-| [ ] | Partition array into two arrays to minimise sum difference | 2035 | Hard | meet in the middle + binary search | new |
+| [x] | Ninja's training | GFG | Medium | dp[day][last activity] | todo |
+| [x] | Delete and earn | 740 | Medium | bucket values → house robber | new |
+| [x] | Perfect squares | 279 | Medium | unbounded knapsack over squares / BFS | new |
+| [x] | Combination sum IV | 377 | Medium | amount outer loop → counts permutations | new |
+| [x] | Count partitions with given difference | GFG | Medium | count subsets with sum (total − d)/2 | new |
+| [x] | Ones and zeroes | 474 | Medium | 2D 0/1 knapsack | new |
+| [x] | Partition array for maximum sum | 1043 | Medium | front partition, try last k lengths | new |
+| [x] | Delete operation for two strings | 583 | Medium | m + n − 2·LCS | new |
+| [x] | Longest string chain | 1048 | Medium | sort by length, map word → best | new |
+| [x] | Longest arithmetic subsequence | 1027 | Medium | dp[i][diff] map | new |
+| [x] | Longest bitonic subsequence | GFG | Medium | LIS from left + LIS from right − 1 | new |
+| [x] | Interleaving string | 97 | Medium | dp[i][j] over both prefixes | new |
+| [x] | Shortest common supersequence | 1092 | Hard | build from LCS table | todo |
+| [x] | Longest increasing path in a matrix | 329 | Hard | DFS + memo (DAG) | new |
+| [x] | Dungeon game | 174 | Hard | bottom-right to top-left min health | new |
+| [x] | Frog jump | 403 | Hard | map stone → set of reachable jump sizes | new |
+| [x] | Boolean parenthesization | GFG | Hard | interval DP with true/false counts | todo |
+| [x] | Partition array into two arrays to minimise sum difference | 2035 | Hard | meet in the middle + binary search | new |
 
 ## 16 — Greedy
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Two city scheduling | 1029 | Medium | sort by costA − costB | new |
-| [ ] | Maximum length of pair chain | 646 | Medium | sort by end (activity selection) | new |
-| [ ] | Merge triplets to form target triplet | 1899 | Medium | keep triplets ≤ target, OR the matches | new |
-| [ ] | Broken calculator | 991 | Medium | work backwards from target | new |
-| [ ] | Shortest job first (average waiting time) | GFG | Easy | sort burst times, prefix sum | new |
-| [ ] | Queue reconstruction by height | 406 | Medium | sort h desc, k asc; insert at index k | todo |
-| [ ] | Minimum number of taps to water a garden | 1326 | Hard | convert to intervals → jump game II | todo |
+| [x] | Two city scheduling | 1029 | Medium | sort by costA − costB | new |
+| [x] | Maximum length of pair chain | 646 | Medium | sort by end (activity selection) | new |
+| [x] | Merge triplets to form target triplet | 1899 | Medium | keep triplets ≤ target, OR the matches | new |
+| [x] | Broken calculator | 991 | Medium | work backwards from target | new |
+| [x] | Shortest job first (average waiting time) | GFG | Easy | sort burst times, prefix sum | new |
+| [x] | Queue reconstruction by height | 406 | Medium | sort h desc, k asc; insert at index k | todo |
+| [x] | Minimum number of taps to water a garden | 1326 | Hard | convert to intervals → jump game II | todo |
 
 ## 17 — Tries
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Replace words | 648 | Medium | shortest root prefix via trie | todo |
-| [ ] | Search suggestions system | 1268 | Medium | trie with top-3 per node / sort + binary search | todo |
-| [ ] | Palindrome pairs | 336 | Hard | trie of reversed words + palindrome checks | todo |
+| [x] | Replace words | 648 | Medium | shortest root prefix via trie | todo |
+| [x] | Search suggestions system | 1268 | Medium | trie with top-3 per node / sort + binary search | todo |
+| [x] | Palindrome pairs | 336 | Hard | trie of reversed words + palindrome checks | todo |
 
 ## 18 — Bit Manipulation
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Power of four | 342 | Easy | power of 2 and bit in `0x55555555` | new |
-| [ ] | Gray code | 89 | Medium | `i ^ (i >> 1)` | todo |
-| [ ] | Bitwise AND of numbers range | 201 | Medium | common prefix: shift until equal | new |
-| [ ] | Total hamming distance | 477 | Medium | per bit: ones × zeros | new |
-| [ ] | XOR queries of a subarray | 1310 | Medium | prefix XOR | new |
+| [x] | Power of four | 342 | Easy | power of 2 and bit in `0x55555555` | new |
+| [x] | Gray code | 89 | Medium | `i ^ (i >> 1)` | todo |
+| [x] | Bitwise AND of numbers range | 201 | Medium | common prefix: shift until equal | new |
+| [x] | Total hamming distance | 477 | Medium | per bit: ones × zeros | new |
+| [x] | XOR queries of a subarray | 1310 | Medium | prefix XOR | new |
 
 ## 19 — Advanced Data Structures
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Repeated DNA sequences | 187 | Medium | rolling hash / 20-bit encoding | new |
-| [ ] | Snapshot array | 1146 | Medium | per index list of (snap, val) + binary search | new |
-| [ ] | Range sum query 2D – mutable | 308 | Hard | 2D Fenwick tree | new |
-| [ ] | My calendar III | 732 | Hard | sweep line TreeMap / dynamic segment tree | new |
-| [ ] | The skyline problem | 218 | Hard | sweep events + max-heap / TreeMap | new |
-| [ ] | Longest duplicate substring | 1044 | Hard | binary search length + Rabin–Karp | new |
-| [ ] | Manacher's algorithm (LC 5 in O(n)) | 5 | Hard | mirror radii on `#a#b#` transformed string | new |
-| [ ] | Count inversions with Fenwick tree | GFG | Medium | compress ranks, BIT from right | new |
+| [x] | Repeated DNA sequences | 187 | Medium | rolling hash / 20-bit encoding | new |
+| [x] | Snapshot array | 1146 | Medium | per index list of (snap, val) + binary search | new |
+| [x] | Range sum query 2D – mutable | 308 | Hard | 2D Fenwick tree | new |
+| [x] | My calendar III | 732 | Hard | sweep line TreeMap / dynamic segment tree | new |
+| [x] | The skyline problem | 218 | Hard | sweep events + max-heap / TreeMap | new |
+| [x] | Longest duplicate substring | 1044 | Hard | binary search length + Rabin–Karp | new |
+| [x] | Manacher's algorithm (LC 5 in O(n)) | 5 | Hard | mirror radii on `#a#b#` transformed string | new |
+| [x] | Count inversions with Fenwick tree | GFG | Medium | compress ranks, BIT from right | new |
 
 ---
 

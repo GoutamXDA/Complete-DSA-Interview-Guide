@@ -70,7 +70,22 @@ Keywords: *count the ways*, *minimum/maximum*, *is it possible*, *longest/shorte
 | 38 | Partition array into two subsets min difference | Hard | subset sum table | [AdvancedDP](AdvancedDP.java) |
 | 39 | Count square submatrices (LC 1277) | Medium | same as maximal square | [AdvancedDP](AdvancedDP.java) |
 | 40 | Egg dropping (LC 887) | Hard | dp[moves][eggs] | [AdvancedDP](AdvancedDP.java) |
-| 41 | Ninja's training | Medium | dp[day][last] | _(todo)_ |
-| 42 | Shortest common supersequence (LC 1092) | Hard | from LCS table | _(todo)_ |
-| 43 | Boolean parenthesization | Hard | interval DP true/false counts | _(todo)_ |
+| 41 | Ninja's training | Medium | dp[day][last] | [DPProblemsII](DPProblemsII.java) |
+| 42 | Shortest common supersequence (LC 1092) | Hard | from LCS table | [DPProblemsIII](DPProblemsIII.java) |
+| 43 | Boolean parenthesization | Hard | interval DP true/false counts | [DPProblemsIII](DPProblemsIII.java) |
 | 44 | Max rectangle of 1s (LC 85) | Hard | histogram per row | see 10 |
+| 45 | Delete and earn (LC 740) | Medium | bucket values → house robber | [DPProblemsII](DPProblemsII.java) |
+| 46 | Perfect squares (LC 279) | Medium | unbounded knapsack over squares / BFS | [DPProblemsII](DPProblemsII.java) |
+| 47 | Combination sum IV (LC 377) | Medium | amount outer loop → counts permutations | [DPProblemsII](DPProblemsII.java) |
+| 48 | Count partitions with given difference (GFG) | Medium | count subsets with sum (total − d)/2 | [DPProblemsII](DPProblemsII.java) |
+| 49 | Ones and zeroes (LC 474) | Medium | 2D 0/1 knapsack | [DPProblemsII](DPProblemsII.java) |
+| 50 | Partition array for maximum sum (LC 1043) | Medium | front partition, try last k lengths | [DPProblemsII](DPProblemsII.java) |
+| 51 | Delete operation for two strings (LC 583) | Medium | m + n − 2·LCS | [DPProblemsII](DPProblemsII.java) |
+| 52 | Longest string chain (LC 1048) | Medium | sort by length, map word → best | [DPProblemsII](DPProblemsII.java) |
+| 53 | Longest arithmetic subsequence (LC 1027) | Medium | dp[i][diff] map | [DPProblemsIII](DPProblemsIII.java) |
+| 54 | Longest bitonic subsequence (GFG) | Medium | LIS from left + LIS from right − 1 | [DPProblemsIII](DPProblemsIII.java) |
+| 55 | Interleaving string (LC 97) | Medium | dp[i][j] over both prefixes | [DPProblemsIII](DPProblemsIII.java) |
+| 56 | Longest increasing path in a matrix (LC 329) | Hard | DFS + memo (DAG) | [DPProblemsIII](DPProblemsIII.java) |
+| 57 | Dungeon game (LC 174) | Hard | bottom-right to top-left min health | [DPProblemsIII](DPProblemsIII.java) |
+| 58 | Frog jump (LC 403) | Hard | map stone → set of reachable jump sizes | [DPProblemsIII](DPProblemsIII.java) |
+| 59 | Partition array into two arrays to minimise sum difference (LC 2035) | Hard | meet in the middle + binary search | [DPProblemsIII](DPProblemsIII.java) |

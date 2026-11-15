@@ -44,3 +44,11 @@
 | 14 | Repeated substring pattern (LC 459) | Easy | LPS: n % (n − lps) == 0 | [StringMatching](StringMatching.java) |
 | 15 | LFU cache (LC 460) | Hard | freq buckets | [LFUCache](LFUCache.java) |
 | 16 | Sparse table RMQ | Medium | doubling | [SparseTable](SparseTable.java) |
+| 17 | Repeated DNA sequences (LC 187) | Medium | rolling hash / 20-bit encoding | [AdvancedProblemsII](AdvancedProblemsII.java) |
+| 18 | Snapshot array (LC 1146) | Medium | per index list of (snap, val) + binary search | [AdvancedProblemsII](AdvancedProblemsII.java) |
+| 19 | Range sum query 2D – mutable (LC 308) | Hard | 2D Fenwick tree | [AdvancedProblemsII](AdvancedProblemsII.java) |
+| 20 | My calendar III (LC 732) | Hard | sweep line TreeMap / dynamic segment tree | [AdvancedProblemsII](AdvancedProblemsII.java) |
+| 21 | The skyline problem (LC 218) | Hard | sweep events + max-heap / TreeMap | [AdvancedProblemsII](AdvancedProblemsII.java) |
+| 22 | Longest duplicate substring (LC 1044) | Hard | binary search length + Rabin–Karp | [AdvancedProblemsII](AdvancedProblemsII.java) |
+| 23 | Manacher's algorithm (LC 5 in O(n)) (LC 5) | Hard | mirror radii on `#a#b#` transformed string | [AdvancedProblemsII](AdvancedProblemsII.java) |
+| 24 | Count inversions with Fenwick tree (GFG) | Medium | compress ranks, BIT from right | [AdvancedProblemsII](AdvancedProblemsII.java) |

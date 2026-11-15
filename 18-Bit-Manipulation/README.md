@@ -35,4 +35,8 @@
 | 13 | Sum of two integers without + (LC 371) | Medium | XOR + carry | [SingleNumber](SingleNumber.java) |
 | 14 | Subsets via bitmask (LC 78) | Medium | iterate masks | see 08 |
 | 15 | Maximum XOR (LC 421) | Medium | binary trie | see 17 |
-| 16 | Gray code (LC 89) | Medium | `i ^ (i >> 1)` | _(todo)_ |
+| 16 | Gray code (LC 89) | Medium | `i ^ (i >> 1)` | [BitProblemsII](BitProblemsII.java) |
+| 17 | Power of four (LC 342) | Easy | power of 2 and bit in `0x55555555` | [BitProblemsII](BitProblemsII.java) |
+| 18 | Bitwise AND of numbers range (LC 201) | Medium | common prefix: shift until equal | [BitProblemsII](BitProblemsII.java) |
+| 19 | Total hamming distance (LC 477) | Medium | per bit: ones × zeros | [BitProblemsII](BitProblemsII.java) |
+| 20 | XOR queries of a subarray (LC 1310) | Medium | prefix XOR | [BitProblemsII](BitProblemsII.java) |
