@@ -41,8 +41,9 @@ A single, structured repository to prepare **Data Structures & Algorithms** for 
 | 18 | [Bit Manipulation](18-Bit-Manipulation) | Medium | XOR tricks, masks, counting bits |
 | 19 | [Advanced Data Structures](19-Advanced-Data-Structures) | Hard | DSU, Segment Tree, Fenwick, KMP, Z, Rabin-Karp, LFU |
 | 20 | [Conceptual Q&A](20-Conceptual-QA) | All | Theory questions interviewers ask |
+| 21 | [**Super-Advanced**](21-Super-Advanced) | Hardest | 75 most-feared problems (5 per topic), each with an in-depth write-up + all approaches |
 
-## Suggested study plan (12 weeks)
+## Suggested study plan (12 weeks + 4 for the super-advanced set)
 
 | Week | Topics |
 |------|--------|
@@ -56,6 +57,7 @@ A single, structured repository to prepare **Data Structures & Algorithms** for 
 | 8–9 | 14 |
 | 10–11 | 15 |
 | 12 | 17, 18, 19, 20 + mock interviews |
+| 13–16 | 21 Super-Advanced: 3–4 problems a day, one topic sub-folder at a time |
 
 ## How each problem is documented
 
