@@ -61,6 +61,10 @@ for (int r = 0; r < n; r++) {
 | 13 | Minimum window substring (LC 76) | Hard | need-count + shrink | [MinWindowSubstring](MinWindowSubstring.java) |
 | 14 | Permutation in string (LC 567) | Medium | fixed window counts | see 03 Anagrams |
 | 15 | Sliding window maximum (LC 239) | Hard | monotonic deque | see 10 |
-| 16 | Fruit into baskets (LC 904) | Medium | ≤ 2 distinct window | _(todo)_ |
-| 17 | Number of substrings containing all three chars (LC 1358) | Medium | last-seen indices | _(todo)_ |
-| 18 | Count nice subarrays (LC 1248) | Medium | atMost trick | _(todo)_ |
+| 16 | Fruit into baskets (LC 904) | Medium | ≤ 2 distinct window | [WindowProblemsII](WindowProblemsII.java) |
+| 17 | Number of substrings containing all three chars (LC 1358) | Medium | last-seen indices | [WindowProblemsII](WindowProblemsII.java) |
+| 18 | Count nice subarrays (LC 1248) | Medium | atMost trick | [WindowProblemsII](WindowProblemsII.java) |
+| 19 | Boats to save people (LC 881) | Medium | sort, pair heaviest with lightest | [WindowProblemsII](WindowProblemsII.java) |
+| 20 | Maximum points you can obtain from cards (LC 1423) | Medium | take k from ends = total − min window of n−k | [WindowProblemsII](WindowProblemsII.java) |
+| 21 | Longest substring with at most K distinct chars (LC 340) | Medium | window + count map | [WindowProblemsII](WindowProblemsII.java) |
+| 22 | Binary subarrays with sum (LC 930) | Medium | atMost(goal) − atMost(goal−1) | [WindowProblemsII](WindowProblemsII.java) |

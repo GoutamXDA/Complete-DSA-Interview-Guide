@@ -41,5 +41,12 @@
 | 17 | Minimum window substring (LC 76) | Hard | sliding window | see 05 |
 | 18 | Repeated string match / strStr (LC 28) | Easy/Med | KMP | see 19 |
 | 19 | Edit distance (LC 72) | Hard | DP | see 15 |
-| 20 | Sort characters by frequency (LC 451) | Medium | bucket sort | _(todo)_ |
+| 20 | Sort characters by frequency (LC 451) | Medium | bucket sort | [StringProblemsII](StringProblemsII.java) |
 | 21 | Shortest palindrome (LC 214) | Hard | KMP on s + '#' + rev(s) | [../19-Advanced-Data-Structures/StringMatching](../19-Advanced-Data-Structures/StringMatching.java) |
+| 22 | Add binary (LC 67) | Easy | add from the back with carry | [StringProblemsII](StringProblemsII.java) |
+| 23 | Valid palindrome II (LC 680) | Easy | on first mismatch, try skipping either side | [StringProblemsII](StringProblemsII.java) |
+| 24 | Maximum nesting depth of parentheses (LC 1614) | Easy | running depth counter | [StringProblemsII](StringProblemsII.java) |
+| 25 | Zigzag conversion (LC 6) | Medium | row index bouncing 0..n-1 | [StringProblemsII](StringProblemsII.java) |
+| 26 | Multiply strings (LC 43) | Medium | `res[i+j+1] += a[i]*b[j]` grade-school | [StringProblemsII](StringProblemsII.java) |
+| 27 | Sum of beauty of all substrings (LC 1781) | Medium | for each start, extend with int[26] | [StringProblemsII](StringProblemsII.java) |
+| 28 | Text justification (LC 68) | Hard | greedy line fill, distribute spaces left-first | [StringProblemsII](StringProblemsII.java) |

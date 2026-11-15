@@ -43,7 +43,9 @@ for (int x : a) {
 | 9 | Longest consecutive sequence (LC 128) | Medium | set, start only at heads | [LongestConsecutiveSequence](LongestConsecutiveSequence.java) |
 | 10 | Top K frequent elements (LC 347) | Medium | bucket sort / heap | see 13 |
 | 11 | Group anagrams (LC 49) | Medium | count key | see 03 |
-| 12 | Subarray sums divisible by K (LC 974) | Medium | prefix mod + map (fix negatives) | _(todo)_ |
-| 13 | 4Sum II (LC 454) | Medium | pair sums in map | _(todo)_ |
+| 12 | Subarray sums divisible by K (LC 974) | Medium | prefix mod + map (fix negatives) | [HashingProblemsII](HashingProblemsII.java) |
+| 13 | 4Sum II (LC 454) | Medium | pair sums in map | [HashingProblemsII](HashingProblemsII.java) |
 | 14 | Design HashMap (LC 706) | Easy | array of buckets with chaining | [MyHashMap](MyHashMap.java) |
 | 15 | LRU cache (LC 146) | Medium | HashMap + doubly linked list | see 09 |
+| 16 | Valid sudoku (LC 36) | Medium | sets per row / col / box (`r/3*3 + c/3`) | [HashingProblemsII](HashingProblemsII.java) |
+| 17 | Brick wall (LC 554) | Medium | count edge positions, answer = rows − max | [HashingProblemsII](HashingProblemsII.java) |

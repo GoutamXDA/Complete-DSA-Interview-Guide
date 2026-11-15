@@ -36,60 +36,60 @@ This is the master list of everything **not yet solved in code** in this repo. W
 ## 01 — Basic Maths
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Plus one | 66 | Easy | carry from the back; all 9s → new leading 1 | new |
-| [ ] | Excel sheet column number | 171 | Easy | base-26: `res = res*26 + (c-'A'+1)` | todo |
-| [ ] | Happy number | 202 | Easy | Floyd cycle on digit-square sum | todo |
-| [ ] | nCr % p | GFG | Hard | precompute fact & inverse fact (Fermat) | todo |
+| [x] | Plus one | 66 | Easy | carry from the back; all 9s → new leading 1 | new |
+| [x] | Excel sheet column number | 171 | Easy | base-26: `res = res*26 + (c-'A'+1)` | todo |
+| [x] | Happy number | 202 | Easy | Floyd cycle on digit-square sum | todo |
+| [x] | nCr % p | GFG | Hard | precompute fact & inverse fact (Fermat) | todo |
 
 ## 02 — Arrays
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Leaders in an array | GFG | Easy | scan from right, track max | todo |
-| [ ] | Pascal's triangle | 118 | Easy | each row from previous; nCr for single element | todo |
-| [ ] | Rearrange array elements by sign | 2149 | Medium | two write pointers (even/odd indices) | new |
-| [ ] | Spiral matrix II | 59 | Medium | 4 boundaries, fill 1..n² | new |
-| [ ] | Game of life | 289 | Medium | encode old/new state in bits, in place | new |
-| [ ] | Range sum query 2D – immutable | 304 | Medium | 2D prefix sums, inclusion–exclusion | new |
-| [ ] | Maximum product subarray | 152 | Medium | track max & min ending here (negatives swap) | todo |
-| [ ] | Find the duplicate number | 287 | Medium | Floyd cycle on index → value | todo |
-| [ ] | Merge two sorted arrays without extra space | GFG | Medium | gap method (shell-sort style) | new |
-| [ ] | Encode and decode strings | 271 | Medium | length + '#' prefix per string | new |
-| [ ] | Insert delete getRandom O(1) | 380 | Medium | ArrayList + value→index map, swap with last | new |
-| [ ] | Count of range sum | 327 | Hard | merge sort on prefix sums / BIT | new |
-| [ ] | Maximum sum rectangle in 2D matrix | GFG | Hard | fix row pair + Kadane on column sums | new |
+| [x] | Leaders in an array | GFG | Easy | scan from right, track max | todo |
+| [x] | Pascal's triangle | 118 | Easy | each row from previous; nCr for single element | todo |
+| [x] | Rearrange array elements by sign | 2149 | Medium | two write pointers (even/odd indices) | new |
+| [x] | Spiral matrix II | 59 | Medium | 4 boundaries, fill 1..n² | new |
+| [x] | Game of life | 289 | Medium | encode old/new state in bits, in place | new |
+| [x] | Range sum query 2D – immutable | 304 | Medium | 2D prefix sums, inclusion–exclusion | new |
+| [x] | Maximum product subarray | 152 | Medium | track max & min ending here (negatives swap) | todo |
+| [x] | Find the duplicate number | 287 | Medium | Floyd cycle on index → value | todo |
+| [x] | Merge two sorted arrays without extra space | GFG | Medium | gap method (shell-sort style) | new |
+| [x] | Encode and decode strings | 271 | Medium | length + '#' prefix per string | new |
+| [x] | Insert delete getRandom O(1) | 380 | Medium | ArrayList + value→index map, swap with last | new |
+| [x] | Count of range sum | 327 | Hard | merge sort on prefix sums / BIT | new |
+| [x] | Maximum sum rectangle in 2D matrix | GFG | Hard | fix row pair + Kadane on column sums | new |
 
 ## 03 — Strings
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Add binary | 67 | Easy | add from the back with carry | new |
-| [ ] | Valid palindrome II | 680 | Easy | on first mismatch, try skipping either side | new |
-| [ ] | Maximum nesting depth of parentheses | 1614 | Easy | running depth counter | new |
-| [ ] | Zigzag conversion | 6 | Medium | row index bouncing 0..n-1 | new |
-| [ ] | Multiply strings | 43 | Medium | `res[i+j+1] += a[i]*b[j]` grade-school | new |
-| [ ] | Sort characters by frequency | 451 | Medium | count + bucket by frequency | todo |
-| [ ] | Sum of beauty of all substrings | 1781 | Medium | for each start, extend with int[26] | new |
-| [ ] | Text justification | 68 | Hard | greedy line fill, distribute spaces left-first | new |
+| [x] | Add binary | 67 | Easy | add from the back with carry | new |
+| [x] | Valid palindrome II | 680 | Easy | on first mismatch, try skipping either side | new |
+| [x] | Maximum nesting depth of parentheses | 1614 | Easy | running depth counter | new |
+| [x] | Zigzag conversion | 6 | Medium | row index bouncing 0..n-1 | new |
+| [x] | Multiply strings | 43 | Medium | `res[i+j+1] += a[i]*b[j]` grade-school | new |
+| [x] | Sort characters by frequency | 451 | Medium | count + bucket by frequency | todo |
+| [x] | Sum of beauty of all substrings | 1781 | Medium | for each start, extend with int[26] | new |
+| [x] | Text justification | 68 | Hard | greedy line fill, distribute spaces left-first | new |
 
 > Shortest palindrome (LC 214) was listed as todo but is already solved in [19/StringMatching.java](19-Advanced-Data-Structures/StringMatching.java).
 
 ## 04 — Hashing
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Valid sudoku | 36 | Medium | sets per row / col / box (`r/3*3 + c/3`) | new |
-| [ ] | Subarray sums divisible by K | 974 | Medium | prefix mod + map; fix negative mod | todo |
-| [ ] | 4Sum II | 454 | Medium | map of all a+b sums, look up −(c+d) | todo |
-| [ ] | Brick wall | 554 | Medium | count edge positions, answer = rows − max | new |
+| [x] | Valid sudoku | 36 | Medium | sets per row / col / box (`r/3*3 + c/3`) | new |
+| [x] | Subarray sums divisible by K | 974 | Medium | prefix mod + map; fix negative mod | todo |
+| [x] | 4Sum II | 454 | Medium | map of all a+b sums, look up −(c+d) | todo |
+| [x] | Brick wall | 554 | Medium | count edge positions, answer = rows − max | new |
 
 ## 05 — Two Pointers & Sliding Window
 | ✓ | Problem | LC | Level | Approach hint | Source |
 |---|---|---|---|---|---|
-| [ ] | Boats to save people | 881 | Medium | sort, pair heaviest with lightest | new |
-| [ ] | Maximum points you can obtain from cards | 1423 | Medium | take k from ends = total − min window of n−k | new |
-| [ ] | Fruit into baskets | 904 | Medium | longest window with ≤ 2 distinct | todo |
-| [ ] | Longest substring with at most K distinct chars | 340 | Medium | window + count map | new |
-| [ ] | Binary subarrays with sum | 930 | Medium | atMost(goal) − atMost(goal−1) | new |
-| [ ] | Count number of nice subarrays | 1248 | Medium | same atMost trick on odd counts | todo |
-| [ ] | Substrings containing all three characters | 1358 | Medium | last-seen index of a/b/c | todo |
+| [x] | Boats to save people | 881 | Medium | sort, pair heaviest with lightest | new |
+| [x] | Maximum points you can obtain from cards | 1423 | Medium | take k from ends = total − min window of n−k | new |
+| [x] | Fruit into baskets | 904 | Medium | longest window with ≤ 2 distinct | todo |
+| [x] | Longest substring with at most K distinct chars | 340 | Medium | window + count map | new |
+| [x] | Binary subarrays with sum | 930 | Medium | atMost(goal) − atMost(goal−1) | new |
+| [x] | Count number of nice subarrays | 1248 | Medium | same atMost trick on odd counts | todo |
+| [x] | Substrings containing all three characters | 1358 | Medium | last-seen index of a/b/c | todo |
 
 ## 06 — Binary Search
 | ✓ | Problem | LC | Level | Approach hint | Source |

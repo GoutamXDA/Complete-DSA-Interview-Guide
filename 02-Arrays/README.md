@@ -44,9 +44,18 @@
 | 17 | Trapping rain water (LC 42) | Hard | two pointers | [../05-Two-Pointers-Sliding-Window/TrappingRainWater](../05-Two-Pointers-Sliding-Window/TrappingRainWater.java) |
 | 18 | First missing positive (LC 41) | Hard | cyclic sort / index marking | [FirstMissingPositive](FirstMissingPositive.java) |
 | 19 | Merge intervals (LC 56) | Medium | sort by start | see 16-Greedy |
-| 20 | Leaders in an array | Easy | scan from right | _(todo)_ |
+| 20 | Leaders in an array | Easy | scan from right | [ArrayProblemsII](ArrayProblemsII.java) |
 | 21 | Longest consecutive sequence (LC 128) | Medium | HashSet, start at sequence heads | see 04-Hashing |
-| 22 | Pascal's triangle (LC 118) | Easy | row from previous row | _(todo)_ |
-| 23 | Find the duplicate number (LC 287) | Medium | Floyd cycle on indices | _(todo)_ |
-| 24 | Maximum product subarray (LC 152) | Medium | track max & min ending here | _(todo)_ |
+| 22 | Pascal's triangle (LC 118) | Easy | row from previous row | [ArrayProblemsII](ArrayProblemsII.java) |
+| 23 | Find the duplicate number (LC 287) | Medium | Floyd cycle on indices | [ArrayProblemsII](ArrayProblemsII.java) |
+| 24 | Maximum product subarray (LC 152) | Medium | track max & min ending here | [ArrayProblemsII](ArrayProblemsII.java) |
 | 25 | Count inversions | Hard | merge sort | see 07-Sorting |
+| 26 | Rearrange array elements by sign (LC 2149) | Medium | two write pointers (even/odd indices) | [ArrayProblemsII](ArrayProblemsII.java) |
+| 27 | Spiral matrix II (LC 59) | Medium | 4 boundaries, fill 1..n² | [ArrayProblemsII](ArrayProblemsII.java) |
+| 28 | Game of life (LC 289) | Medium | encode old/new state in bits, in place | [ArrayProblemsII](ArrayProblemsII.java) |
+| 29 | Range sum query 2D – immutable (LC 304) | Medium | 2D prefix sums, inclusion–exclusion | [ArrayProblemsII](ArrayProblemsII.java) |
+| 30 | Merge two sorted arrays without extra space (GFG) | Medium | gap method (shell-sort style) | [ArrayProblemsIII](ArrayProblemsIII.java) |
+| 31 | Encode and decode strings (LC 271) | Medium | length + '#' prefix per string | [ArrayProblemsIII](ArrayProblemsIII.java) |
+| 32 | Insert delete getRandom O(1) (LC 380) | Medium | ArrayList + value→index map, swap with last | [ArrayProblemsIII](ArrayProblemsIII.java) |
+| 33 | Count of range sum (LC 327) | Hard | merge sort on prefix sums / BIT | [ArrayProblemsIII](ArrayProblemsIII.java) |
+| 34 | Maximum sum rectangle in 2D matrix (GFG) | Hard | fix row pair + Kadane on column sums | [ArrayProblemsIII](ArrayProblemsIII.java) |

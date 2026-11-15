@@ -45,6 +45,7 @@ count of digits = (int) Math.log10(n) + 1      // for n > 0
 | 11 | Modular exponentiation / inverse | Medium | fast pow with mod, Fermat | [FastPower](FastPower.java) |
 | 12 | Factorial trailing zeroes (LC 172) | Medium | count factors of 5: n/5 + n/25 + … | [DigitProblems](DigitProblems.java) |
 | 13 | Sqrt(x) (LC 69) | Easy | binary search / Newton | see 06-Binary-Search |
-| 14 | Excel column number (LC 171) | Easy | base-26 | _(todo)_ |
-| 15 | Happy number (LC 202) | Easy | Floyd cycle on digit-square sum | _(todo)_ |
-| 16 | nCr % p | Hard | factorial + inverse factorial arrays | _(todo)_ |
+| 14 | Excel column number (LC 171) | Easy | base-26 | [MathProblemsII](MathProblemsII.java) |
+| 15 | Happy number (LC 202) | Easy | Floyd cycle on digit-square sum | [MathProblemsII](MathProblemsII.java) |
+| 16 | nCr % p | Hard | factorial + inverse factorial arrays | [MathProblemsII](MathProblemsII.java) |
+| 17 | Plus one (LC 66) | Easy | carry from the back; all 9s → new leading 1 | [MathProblemsII](MathProblemsII.java) |
